@@ -191,6 +191,12 @@
     <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_enableAutoPowerModes">true</bool>
 
+    <!-- Doze: should the proximity sensor (handwave / pocket mode) be used as a pulse signal. -->
+    <bool name="config_dozePulseProximity">true</bool>
+
+    <!-- Doze: should the tilt sensor be used as a pulse signal. -->
+    <bool name="config_dozePulseTilt">true</bool>
+
     <!-- Enable the option to check proximity sensor when deciding whether to
          turn the screen on
          NOTE ! - Enable for devices that have a fast response proximity sensor -->
